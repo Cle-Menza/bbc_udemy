@@ -1,0 +1,29 @@
+.fl {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fr {
+    margin: 0 -8px;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+.fc {
+    padding: 0 8px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+
+.fc-40 {
+    flex: 0 0 40%;
+}
+
+.fc-33 {
+    flex: 0 0 33%;
+}
+
+.fc-60 {
+    flex: 0 0 60%;
+}
